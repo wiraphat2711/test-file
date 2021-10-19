@@ -8,19 +8,37 @@ const headers = { Accecpt : "application/json"}
 export default new Vuex.Store({
   state: {
     currentUser : [],
-    allUsers : []
+    allUsers : [],
+    infoStd : [],
+    AllinfoStd : [],
   },
   mutations: {
+    setStudentData(state, payload) {
+      if (state.infoStd.length > 0) {
+        state.infoStd.pop();
+      }
+      state.infoStd.push(payload)
+      state.AllinfoStd.push(payload)
+      console.log(state.infoStd)
+      console.log(state.AllinfoStd)
+    },
     setCurrentUser(state,playload){
       if(state.currentUser.length > 0){
         state.currentUser.pop();
       }
       state.currentUser.push(playload)
       state.allUsers.push(playload)
-    }
+    },
+    setCurrentStd(state) {
+      if (state.currentUser.length > 0) {
+        state.studentUser.pop();
+      }
+      state.studentUser.push(state.info)
+      state.allStudentUsers.push(state.info)
+    },
   },
   actions: {
-    async setcurrentUser(state,playload){
+    async setCurrentUser(state,playload){
       const user = await fetch(url+playload,{headers});
       const data = await user.json();
       state.commit('setCurrentUser',data);
@@ -30,7 +48,7 @@ export default new Vuex.Store({
 
   },
   getters: {
-    getUser : state => state.currentUser,
-    getAllUsers : state => state.allUsers,
+    getUser : state => state.infoStd,
+    getAllUsers : state => state.AllinfoStd,
   }
 })

@@ -1,0 +1,14 @@
+{
+    "accounts": [
+      {"id":1,"name": "john", "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqMbjYmbX6lWFqPNMVhtKSFfSG2g1GsoI0g&usqp=CAU%22%7D","price" : "300 "},
+      {"id":2,"name": "bob", "pic": "https://cdn.discordapp.com/attachments/706047042723643406/898459240778317864/S__3227654.jpg%22%7D","price" : "100 "},
+      {"id":3,"name": "moe", "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHEEjzf2Fg9me_J9muNmOzQ46eck8aRj23A&usqp=CAU%22%7D","price" : "200 "}
+    ],
+    "object": [
+      {"pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqMbjYmbX6lWFqPNMVhtKSFfSG2g1GsoI0g&usqp=CAU%22%7D"},
+      {"name": "bob"},
+      {"price": "200"}
+    ]
+}
+
+
