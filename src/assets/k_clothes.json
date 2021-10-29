@@ -1,33 +1,45 @@
 [
     {
+      "id":0,
       "NameThai": "เด็กผู้ชายวัยหัดเดิน เสื้อสวมหัว พิมพ์ลายรูปรถ",
-      "price": "฿250",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517182833598494/Rectangle_65_1.jpg"
+      "price": 250,
+      "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517182833598494/Rectangle_65_1.jpg",
+      "active": false
     },
     {
+      "id":1,
         "NameThai": "เด็กผู้ชายวัยหัดเดิน บล็อคสี เสื้อเชิ้ต & กางเกงขายาว",
-        "price": "฿450",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517181181034526/Rectangle_66.jpg"
+        "price": 450,
+        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517181181034526/Rectangle_66.jpg",
+        "active": false
       },
     {
+        "id":2,
         "NameThai": "เด็กผู้ชายวัยหัดเดิน เสื้อสวมหัว ตัดและเย็บ",
-        "price": "฿300",
-          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517180505759744/Rectangle_67.jpg"
+        "price": 300,
+          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517180505759744/Rectangle_67.jpg",
+          "active": false
       },
       {
+        "id":3,
         "NameThai": "เด็กผู้ชายวัยหัดเดิน แจ็คเก็ต ลายฟันสุนัข กระดุมแถวหน้า ",
-        "": "฿600",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517171601244190/Rectangle_68.jpg"
+        "price": 600,
+        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517171601244190/Rectangle_68.jpg",
+        "active": false
       },
       {
+        "id":4,
         "NameThai": "เด็กผู้ชายวัยหัดเดิน",
-        "price": "฿380",
-          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517177590738964/Rectangle_69.jpg"
+        "price": 380,
+          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517177590738964/Rectangle_69.jpg",
+          "active": false
       },
       {
+          "id":5,
           "NameThai": "เด็กผู้ชายวัยหัดเดิน เสื้อสวมหัว เสือดาว",
-          "price": "฿330",
-            "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517179121664040/Rectangle_70.jpg"
+          "price": 330,
+            "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903517179121664040/Rectangle_70.jpg",
+            "active": false
         }
 
   ]

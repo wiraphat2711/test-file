@@ -1,33 +1,51 @@
 [
     {
+      "id":0,
       "NameThai": "หญิง เซิ๊ตเดรส  เสื้อคอปก กระดุมแถวหน้า",
-      "price": "฿450 < ฿590",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518728711438346/Rectangle_68.jpg"
+      "price": 450,
+        "pricemax": 590,
+        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518728711438346/Rectangle_68.jpg",
+        "active": false
     },
     {
+      "id":1,
         "NameThai": "หญิง ลายสก็อต เสื้อสวมหัว พร้อม เข็มขัด กางเกงวอร์ม ",
-        "price": "฿440 < ฿590",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518732431818752/Rectangle_69.jpg"
+        "price": 440,
+        "pricemax": 590,
+        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518732431818752/Rectangle_69.jpg",
+        "active": false
       },
     {
+      "id":2,
         "NameThai": "หญิง เดรส สายรุ้ง และ ภาพพิมพ์รูป ยูนิคอร์น ปลายระบาย",
-        "price": "฿480 < ฿620",
-          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518732024942602/Rectangle_70.jpg"
+        "price": 480,
+        "pricemax":620,
+          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518732024942602/Rectangle_70.jpg",
+          "active": false
       },
       {
+        "id":3,
         "NameThai": "เด็กผู้ชาย เสื้อกันหนาว ลายทหารปิดซิป ปุย ตัดแต่ง ฮูด ",
-        "price": "฿880 < ฿1,160",
-        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518733543292928/Rectangle_86.jpg"
+        "price": 880,
+        "pricemax":1160,
+        "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518733543292928/Rectangle_86.jpg",
+        "active": false
       },
       {
+        "id":4,
         "NameThai": "เด็กผู้ชาย แจ็คเก็ต ภาพพิมพ์รูปกราฟิกกระเป๋าซิป ฮูด เคลือบรักษาอุณหภูม",
-        "price": "฿740 < ฿980",
-          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518735581708288/Rectangle_87.jpg"
+        "price": 740,
+        "pricemax":980,
+          "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518735581708288/Rectangle_87.jpg",
+          "active": false
       },
       {
+        "id":5,
           "NameThai": "เด็กผู้ชาย เสื้อกันหนาว เทศกาลฮาโลวีนลวดลาย เย็บขอบ",
-          "price": "฿390 < ฿530",
-            "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518737292988487/Rectangle_88.jpg"
+          "price": 390,
+        "pricemax":530,
+            "pic" : "https://cdn.discordapp.com/attachments/903517001677438996/903518737292988487/Rectangle_88.jpg",
+            "active": false
         }
 
   ]

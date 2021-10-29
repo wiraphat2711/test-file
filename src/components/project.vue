@@ -16,17 +16,17 @@
       <h1>สินค้ามาเเรง</h1>
       <b-row>
         <b-col>
-          <button class="btn btn-outline-info">
+          <button class="btn btn-light">
             <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806738503991356/b81086edec067f9b.jpg' " width="100%" height="250" />
           </button>
         </b-col>
         <b-col>
-          <button class="btn btn-outline-info">
+          <button class="btn btn-light">
             <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806738843734016/-1.jpg' " width="100%" height="250"/>
           </button>
         </b-col>
         <b-col>
-          <button class="btn btn-outline-info">
+          <button class="btn btn-light">
             <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806993593171988/10---.jpeg' " width="100%" height="250" />
           </button>
         </b-col>
@@ -155,5 +155,8 @@ a {
 #sci4{
   font-size:7mm;
   text-align:left;
+}
+#sci5{
+  color:red
 }
 </style>

@@ -1,48 +1,75 @@
 [
     {
+      "id":1,
       "NameThai": "เสื้อครอป ผ้าถักเป็นริ้ว",
-      "price": "฿80 < ฿120",
-        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903509139802701834/Rectangle_101.jpg"
+      "price": 80,
+      "pricemax": 120,
+        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903509139802701834/Rectangle_101.jpg",
+        "active": false
     },
     {
+      "id":2,
         "NameThai": "เคเบิ้ล เนื้อผ้า เสื้อคอวีป้าย เสื้อกล้ามครอป",
-        "price": "฿140 > ฿210",
-        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903509137940418611/144.jpg"
+        "price": 140,
+      "pricemax": 210,
+        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903509137940418611/144.jpg",
+        "active": false
       },
     {
+      "id":3,
         "NameThai": "เสื้อท็อปสายเดี่ยว คอปก เสื้อเกาะอก ปลายทรงแหลม",
-        "price": "฿70 < ฿115",
-          "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510112101101619/Rectangle_1044.jpg"
+        "price": 70,
+      "pricemax": 115,
+          "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510112101101619/Rectangle_1044.jpg",
+          "active": false
       },
       {
+        "id":4,
         "NameThai": "เสื้อกล้าม เสื้อคอสามเหลี่ยม ลายถัก ",
-        "price": "฿80 < ฿133",
-        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510113367777280/Rectangle_1074.jpg"
+        "price": 80,
+      "pricemax": 133,
+        "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510113367777280/Rectangle_1074.jpg",
+        "active": false
       },
       {
+        "id":5,
         "NameThai": "เสื้อ สองสี ขอบหยัก ผ้าถักเป็นริ้ว",
-        "price": "฿80 < ฿120",
-          "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510116010180628/Rectangle_1084.jpg"
+        "price": 80,
+      "pricemax": 120,
+          "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903510116010180628/Rectangle_1084.jpg",
+          "active": false
       },
       {
+        "id":6,
           "NameThai": "จั๊มสูท ลายดอกไม้เล็กๆ เสื้อคอวี เข็มขัด",
-          "price": "฿340 < ฿460",
-            "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511199977705502/Rectangle_1054.jpg"
+          "price": 340,
+      "pricemax": 450,
+            "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511199977705502/Rectangle_1054.jpg",
+            "active": false
         },
         {
+          "id":7,
             "NameThai": "จั้มสูทขากว้าง ของแข็ง เข็มขัด",
-            "price": "฿530 < ฿690",
-              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511202418814976/Rectangle_1094.jpg"
+            "price": 530,
+            "pricemax": 690,
+              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511202418814976/Rectangle_1094.jpg",
+              "active": false
           },
           {
+            "id":8,
             "NameThai": "จั๊มสูท ลายแถบ โบว์ใหญ่ ตัดเว้า สม็อคหลัง",
-            "price": "฿370 < ฿630",
-              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511203811303444/Rectangle_1104.jpg"
+            "price": 370,
+            "pricemax": 630,
+              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511203811303444/Rectangle_1104.jpg",
+              "active": false
           },
           {
+            "id":9,
             "NameThai": "เสื้อยืด คอลึก ",
-            "price": "฿110 < ฿172",
-              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511825667207268/Rectangle_1114.jpg"
+            "price": 110,
+            "pricemax": 172,
+              "pic" : "https://cdn.discordapp.com/attachments/849660557740605473/903511825667207268/Rectangle_1114.jpg",
+              "active": false
           }
 
   ]

@@ -21,15 +21,22 @@
       <header  class="container">
           <div id=sci5>
               <p></p><br>
-                <li v-for="user in wommans" :key="user.NameThai">
+                <li v-for="user in wommans" :key="user.id">
                  <div class="card" style="width: 18rem;">
-            <div class="card-body">
+        
+                <button  class="btn btn-light" >
                 <img v-bind:src=user.pic width="250" height="250"><br>
                     {{user.NameThai}}<br>
-                    Price: {{user.price}}
-            </div>
+                    Price: {{user.price}}<br>
+                </button>
+                    <div class="card-footer">
+                          <input type="checkbox" class="form-control" @change="selected(user)">
+                    </div>
                  </div>
                 </li>
+          </div>
+          <div>
+              <h1>ยอดชำละเงิน {{total()}} บาท</h1>
           </div>
       </header>
   </body>
@@ -45,6 +52,20 @@ export default {
             wommans: womandata
         }
     },
+    methods: {
+    selected:function(item){
+        item.active = !item.active
+    },
+    total:function(){
+        var sum=0;
+        this.wommans.forEach(function(item){
+              if(item.active){
+                  sum+=item.price; 
+              }
+        });
+        return sum;
+    }
+  },
 }
 </script>
 
