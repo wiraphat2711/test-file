@@ -1,14 +1,17 @@
 [
-    {
-      "id": 23,
-      "name": "Opera"
-    },
-    {
-      "id": 24,
-      "name": "Kevin"
-    },
-    {
-      "id": 25,
-      "name": "Lora"
-    }
-  ]
+  {
+    "id": "Available",
+    "name": "Worldwide Shipping",
+    "img": "https://cdn.discordapp.com/attachments/706047042723643406/898475120706867240/world.png"
+  },
+  {
+    "id": "Line: -xnam",
+    "name": "Retail & Wholesale",
+    "img": "https://cdn.discordapp.com/attachments/706047042723643406/898475116357365780/online-shopping.png"
+  },
+  {
+    "id": "0943237912",
+    "name": "Call Us",
+    "img": "https://cdn.discordapp.com/attachments/706047042723643406/898475119905746944/telephone.png"
+  }
+]

@@ -1,93 +1,91 @@
 <template>
-  <body style="font-family: 'IBM Plex Sans Thai', sans-serif;">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">ระบบสารสนเทศศิษย์เก่า</span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">หน้าแรก</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">เกี่ยวกับเรา</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">จัดการข้อมูล</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ติดต่อเรา</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">คำถามที่พบบ่อย</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-
+  <body>
+    <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898459237359947777/S__3227650.jpg' " width="80%" height="70%" />
     <header class="container">
-    <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898459237359947777/S__3227650.jpg' " width="100%" height="500" /> <br>
-    <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898459240778317864/S__3227654.jpg' " width="50%" height="400" /> 
-    </header>
   
-  <li v-for="user in users" :key="user.id">
-    <div class="card">
-      <div class="card-body">
-        {{user.name}}
-        {{user.id}}
-      </div>
-  </div>
-  </li>
+    <b-row><p></p><br><p></p><br>
+      <b-col>
+        <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898459240778317864/S__3227654.jpg' " width="100%" height="80%" />
+      </b-col>
+      <b-col id="sci2">
+        <p></p><br> CLOTHE STORAG <br><p></p>เราเป็นร้านค้าออนไลน์ที่บริหารงานโดยบริษัท อินเตอร์มิเดียจำกัด คุณสามารถเลือกช้อปกับเราได้ผ่านทางออนไลน์เเละคุณสามารถติดต่อสอบถามสินค้าเเละบริการอื่นๆของเราได้
+      </b-col>
+    </b-row>
+    
+    <div id=sci>
+      <h1>สินค้ามาเเรง</h1>
+      <b-row>
+        <b-col>
+          <button class="btn btn-outline-info">
+            <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806738503991356/b81086edec067f9b.jpg' " width="100%" height="250" />
+          </button>
+        </b-col>
+        <b-col>
+          <button class="btn btn-outline-info">
+            <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806738843734016/-1.jpg' " width="100%" height="250"/>
+          </button>
+        </b-col>
+        <b-col>
+          <button class="btn btn-outline-info">
+            <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898806993593171988/10---.jpeg' " width="100%" height="250" />
+          </button>
+        </b-col>
+      </b-row>
+    </div><p></p><br><p></p><br><p></p><br>
 
-  
-
-
-  
-  <li v-for="option in options" :key="option" v-bind:value="option.value">
-    <div class="card">
-      <div class="card-body">
-      {{option.text}}<br/>
-      <img v-bind:src=option.url /><br/>
-      ราคา{{option.value}}
-      </div>
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline-primary btn-lg">จั๊มสูททันสมัย</button>
+      <button type="button" class="btn btn-outline-secondary btn-lg">เสื้อกล้าม & สายเดี่ยว</button>
+      <button type="button" class="btn btn-outline-success btn-lg">เสื้อโค้ท & เเจ็คเก็ต</button>
+      <button type="button" class="btn btn-outline-danger btn-lg">บอดี้สูทสุดเท่</button>
+      <button type="button" class="btn btn-outline-warning btn-lg">ชุดว่ายน้ำ</button>
+      <button type="button" class="btn btn-outline-info btn-lg">กระโปรง</button>
+      <button type="button" class="btn btn-outline-dark btn-lg">กางเกง</button>
     </div>
-  </li>
 
-ิิิิิิิิิิิิิิิิิิิิิิิิิิิิิิิิ
-    <!-- <div>
-    <ul>
-    <li v-for="name in names" :key="name">{{ name }}</li>
-    </ul>
-    <ul>
-    <li v-for="pic in pics" :key="pic">{{ pic }}</li>
-    </ul>
-    <d v-for="price in prices" :key="price">{{ price }}</d>
-  </div> -->
+    <p></p><br><p></p><br><p></p><br><p></p><br>
+    <div class="card-body">
+      <h1>BEST SELLER & REVIEW</h1>
+      <b-row>
+        <b-col>
+          <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898475003547357194/5xu1dx.jpg' " width="300" height="400" />
+        </b-col>
+        <b-col>
+          <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898475006873436200/PRD-1aeb5a1776a2fd01bc628f92e4411ce2-5e5f7108ef11b-1583313160.jpg' " width="300" height="400" />
+        </b-col>
+        <b-col>
+          <img  v-bind:src="'https://cdn.discordapp.com/attachments/706047042723643406/898475009402609685/l84d3t.jpg' " width="300" height="400" />
+        </b-col>
+      </b-row>
+    </div>
+
+    <p></p><br><p></p><br>
+    <li v-for="user in users" :key="user.id">
+    <!-- <div class="card"> -->
+      <div class="card-body">
+        <img v-bind:src=user.img width="200" height="200"><br>
+        {{user.name}}<br>
+        Price: {{user.id}}
+      </div>
+    <!-- </div> -->
+    </li>
+    
+    </header>
+    
 </body>
-  
 </template>
 
 <script>
 import usersData from "../assets/users.json"
 import states from "../assets/data.json";
+import Router from "vue-router"
+const router = new Router({mode: "history",})
+
 export default {
   name: "project",
   data(){
     return{
       users: usersData,
-      options: [
-                {text: "เสื้อ",value: "1000",url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHEEjzf2Fg9me_J9muNmOzQ46eck8aRj23A&usqp=CAU%22%7D"},
-                {text: "กางเกง",value: "200",url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDHEEjzf2Fg9me_J9muNmOzQ46eck8aRj23A&usqp=CAU%22%7D"},
-                {text: "รองเท้า",value: "30",url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqMbjYmbX6lWFqPNMVhtKSFfSG2g1GsoI0g&usqp=CAU%22%7D"},
-                {text: "หมวก",value: "40000",url:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjqMbjYmbX6lWFqPNMVhtKSFfSG2g1GsoI0g&usqp=CAU%22%7D"},
-            ]
     }
   },
   computed: {
@@ -112,13 +110,18 @@ export default {
         (item) => {return item.id;}
       )
     },
-    
-  }
+  },
+  methods: {
+    shoppingcart(){
+    router.push(`/project`);
+    router.go();
+    }
+  },
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+
+<style >
 h1,
 h2 {
   font-weight: normal;
@@ -133,5 +136,24 @@ li {
 }
 a {
   color: #42b983;
+}
+#sci{
+    color: red;
+    text-align:left;
+}
+#sci2{
+    font-size:7mm;
+    /* float:right; */
+    /* width:640px;
+    height:400px; */
+    /* border:solid 2px green; */
+    text-align:center;
+}
+#sci3{
+  text-align:center;
+}
+#sci4{
+  font-size:7mm;
+  text-align:left;
 }
 </style>
