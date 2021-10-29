@@ -45,7 +45,7 @@ export default new Vuex.Store({
     }
   },
   modules:{
-
+    
   },
   getters: {
     getUser : state => state.infoStd,

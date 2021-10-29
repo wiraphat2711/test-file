@@ -157,6 +157,7 @@ a {
   text-align:left;
 }
 #sci5{
-  color:red
+  color:red;
+  text-align:center;
 }
 </style>

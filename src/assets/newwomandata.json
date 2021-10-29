@@ -68,20 +68,5 @@
             "price": 480,
               "pic" : "https://cdn.discordapp.com/attachments/706047042723643406/903503233459298365/Rectangle_1062.jpg",
               "active": false
-          },
-          {
-            "id":11,
-            "NameThai": "กระโปรงผู้หญิง ซิป แยกขา เรียบง่าย เซ็กซี่",
-            "price": 280,
-              "pic" : "https://cdn.discordapp.com/attachments/706047042723643406/903503669868249158/Rectangle_1112.jpg",
-              "active": false
-          },
-          {
-            "id":12,
-            "NameThai": "กระโปรง ดีเทลกระดุม เอวสูง รอยจีบ",
-            "price": 390,
-              "pic" : "https://cdn.discordapp.com/attachments/706047042723643406/903504008029810738/Rectangle_1122.jpg",
-              "active": false
           }
-
   ]
