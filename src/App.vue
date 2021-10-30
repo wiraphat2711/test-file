@@ -22,7 +22,7 @@
                             <a class="nav-link" href="/kid">KIDS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/test1">CONTACT</a>
+                            <a class="nav-link" href="/receipt">CONTACT</a>
                         </li>
                     </ul>
                 </div>
