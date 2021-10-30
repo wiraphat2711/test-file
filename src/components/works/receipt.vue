@@ -5,13 +5,13 @@
  <h2 align="center">แสดงความคิดเห็นของคุณที่นี่</h2>
 <div class="mb-3 ">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" v-model="info.email">
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" v-model="info.email" required>
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">comment</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" v-model="info.comment"></textarea>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" v-model="info.comment" required></textarea>
 </div>
-<button class="btn btn-danger" @click="save">ยืนยัน</button>
+<button class="btn btn-danger" type= "submit" @click="save">ยืนยัน</button>
 <div :hidden="!show" v-for="(data,index) in employeeInfo" :key="index">
       <b-row><p></p><br><p></p><br>
       <b-col id=sci4>
@@ -46,13 +46,15 @@ export default {
   },
   methods:{
     save(){
-            this.employeeInfo.push(this.info);
+      if(this.info.email!=null){
+        this.employeeInfo.push(this.info);
             this.show = true;
             this.info = {
                 email:null,
                 comment:null,
                 active : false
             };
+      }
         },
   }
 };
