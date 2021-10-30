@@ -106,7 +106,7 @@ const routes = [
     component: kidclothes
   },
   {
-    path: '/shopping/:pic',
+    path: '/shopping/',
     name: 'shopping',
     component: shopping
   },

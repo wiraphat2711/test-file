@@ -68,7 +68,8 @@
               </tr>
             </tbody>
           </table>
-          <h1>ยอดชำละเงิน {{total()}} บาท</h1>
+          <li>ยอดชำระเงิน {{total()}} บาท</li>
+          <button type="button" class="btn btn-danger" @click="shoppingcart">สั่งซื้อสินค้า</button>
         </div>
       </header>
   </body>
@@ -76,6 +77,8 @@
 
 <script>
 import wclothes from "@/assets/wclothes.json"
+import Router from "vue-router"
+const router = new Router({mode: "history",})
 export default {
     name:"womanclothes",
     data(){
@@ -95,6 +98,10 @@ export default {
         }
     },
 methods: {
+  shoppingcart(){
+        router.push(`/shopping`);
+        router.go();
+    },
     addCart:function(item){
       if(item.id==1){
         //ซื้อเสื้อ

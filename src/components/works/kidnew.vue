@@ -24,7 +24,7 @@
                 <li v-for="user in knew" :key="user.id">
                  <div class="card" style="width: 18rem;">
         
-                <button  class="btn btn-light" @click="shoppingcart">
+                <button  class="btn btn-light">
                 <img v-bind:src=user.pic width="250" height="250"><br>
                     {{user.NameThai}}<br>
                     Price: {{user.price}}<br>
@@ -68,7 +68,8 @@
               </tr>
             </tbody>
           </table>
-          <h1>ยอดชำละเงิน {{total()}} บาท</h1>
+          <li>ยอดชำระเงิน {{total()}} บาท</li>
+          <button type="button" class="btn btn-danger" @click="shoppingcart">สั่งซื้อสินค้า</button>
         </div>
       </header>
   </body>
@@ -97,8 +98,8 @@ data(){
     },
 methods: {
     shoppingcart(){
-    router.push(`/project`);
-    router.go();
+        router.push(`/shopping`);
+        router.go();
     },
     addCart:function(item){
       if(item.id==1){
