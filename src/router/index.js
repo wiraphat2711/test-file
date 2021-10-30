@@ -21,6 +21,7 @@ import kidnew from '@/components/works/kidnew.vue'
 import kidsale from '@/components/works/kidsale.vue'
 import kidclothes from '@/components/works/kidclothes.vue'
 import shopping from '@/components/works/shopping.vue'
+import receipt from '@/components/works/receipt.vue'
 
 import {BootstrapVue , IconsPlugin} from 'bootstrap-vue'
 import "bootstrap/dist/css/bootstrap.css"
@@ -106,9 +107,14 @@ const routes = [
     component: kidclothes
   },
   {
-    path: '/shopping/',
+    path: '/shopping',
     name: 'shopping',
     component: shopping
+  },
+  {
+    path: '/receipt',
+    name: 'receipt',
+    component: receipt
   },
   // {
   //   path: '/page1/:id/:Fname/:Lname',
